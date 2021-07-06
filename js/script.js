@@ -12,7 +12,9 @@ do{
     var input = prompt("Inserisci il tuo cognome");
 }while(!isNaN(input));
 
-console.log(finalInput);
+input = input[0].toUpperCase() + input.substring(1);
+
+console.log(input);
 
 //Modifica Array
 
