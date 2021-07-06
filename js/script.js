@@ -19,3 +19,11 @@ list.push(input);
 list.sort();
 
 console.log(list);
+
+//Logica
+
+for(i = 0; i < list.length; i++){
+    output += "<li>" + list[i] + "Posizione: " + (i + 1) + "</li>";
+}
+
+console.log(output);
